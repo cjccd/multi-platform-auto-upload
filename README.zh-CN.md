@@ -2,13 +2,52 @@
 
 [English](README.md) | 简体中文
 
-**一个面向自媒体创作者、电商商家和 AI Agent 的多平台内容自动发布工具。**
+<p align="center">
+  <img src="assets/hero.png" alt="Multi Platform Auto Upload hero banner" width="100%" />
+</p>
 
-它把短视频、图文、商品挂载、定时发布、账号 Cookie 管理和 Agent Skill 工作流收敛到一个统一 CLI：`mpau`。
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" /></a>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10--3.12-3776AB.svg" />
+  <img alt="CLI" src="https://img.shields.io/badge/CLI-mpau-00C2FF.svg" />
+  <img alt="Agent Ready" src="https://img.shields.io/badge/AI%20Agent-Ready-8A2BE2.svg" />
+  <img alt="Platforms" src="https://img.shields.io/badge/Platforms-10+-14B8A6.svg" />
+</p>
 
-> 不要再让 AI Agent 每次临场点网页，把发布流程沉淀成可复用、可验证、可扩展的 CLI。
+<p align="center">
+  <b>不要再让 AI Agent 每次临场点网页，把发布流程沉淀成可复用、可验证、可扩展的 CLI。</b>
+</p>
+
+<p align="center">
+  <b>一个命令行入口，覆盖社媒分发、电商内容发布和 Agent 自动化工作流。</b>
+</p>
+
+Multi Platform Auto Upload 是一个面向自媒体创作者、电商商家和 AI Agent 的多平台内容自动发布工具。它把短视频、图文、商品挂载、定时发布、账号 Cookie 管理和 Agent Skill 工作流收敛到一个统一 CLI：`mpau`。
 
 如果你每天都在多个平台重复做这些事：登录后台、上传视频、填写标题描述、挂商品、设置定时、保存草稿、检查发布结果——这个项目就是为了把这些重复流程交给稳定脚本完成。
+
+---
+
+## 支持平台
+
+| 平台 | 视频 | 图文 | 定时 | 商品/挂载 | CLI | Skill |
+| --- | --- | --- | --- | --- | --- | --- |
+| 抖音 | ✅ | ✅ | ✅ | ✅ 商品链接 | ✅ | ✅ |
+| 视频号 | ✅ | 暂未开放 | ✅ | ✅ 微信小店/橱窗商品 | ✅ | ✅ |
+| PDD / 多多视频 | ✅ | ❌ | ✅ | ✅ PDD 商品 ID | ✅ | ✅ |
+| 天猫 / 淘宝光合 | ✅ | ❌ | ✅ | ✅ 淘宝/天猫商品 ID | ✅ | ✅ |
+| 京东 / 京东京麦 | ✅ | ❌ | ✅ | ✅ 京东商品 ID | ✅ | ✅ |
+| 快手 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 小红书 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| Bilibili | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| 百家号 | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| TikTok | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+
+<p align="center">
+  <b>创作者发布更快，商家分发更稳，Agent 不再盲点网页。</b>
+</p>
+
+另外保留了旧版 XHS SDK uploader，作为 legacy 代码，不作为当前主线入口。
 
 ---
 
@@ -65,25 +104,6 @@
 - 想基于现有 uploader 扩展更多平台
 - 想把内容生成、视频分析、发布流程串成自动化 pipeline
 - 想在自己的运营系统里集成多平台发布能力
-
----
-
-## 支持平台
-
-| 平台 | 视频 | 图文 | 定时 | 商品/挂载 | CLI | Skill |
-| --- | --- | --- | --- | --- | --- | --- |
-| 抖音 | ✅ | ✅ | ✅ | ✅ 商品链接 | ✅ | ✅ |
-| 视频号 | ✅ | 暂未开放 | ✅ | ✅ 微信小店/橱窗商品 | ✅ | ✅ |
-| PDD / 多多视频 | ✅ | ❌ | ✅ | ✅ PDD 商品 ID | ✅ | ✅ |
-| 天猫 / 淘宝光合 | ✅ | ❌ | ✅ | ✅ 淘宝/天猫商品 ID | ✅ | ✅ |
-| 京东 / 京东京麦 | ✅ | ❌ | ✅ | ✅ 京东商品 ID | ✅ | ✅ |
-| 快手 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| 小红书 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Bilibili | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| 百家号 | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| TikTok | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-
-另外保留了旧版 XHS SDK uploader，作为 legacy 代码，不作为当前主线入口。
 
 ---
 

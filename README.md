@@ -2,13 +2,52 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-**Stop letting AI agents click around blindly. Give them a real publishing CLI.**
+<p align="center">
+  <img src="assets/hero.png" alt="Multi Platform Auto Upload hero banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" /></a>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10--3.12-3776AB.svg" />
+  <img alt="CLI" src="https://img.shields.io/badge/CLI-mpau-00C2FF.svg" />
+  <img alt="Agent Ready" src="https://img.shields.io/badge/AI%20Agent-Ready-8A2BE2.svg" />
+  <img alt="Platforms" src="https://img.shields.io/badge/Platforms-10+-14B8A6.svg" />
+</p>
+
+<p align="center">
+  <b>Stop letting AI agents click around blindly. Give them a real publishing CLI.</b>
+</p>
+
+<p align="center">
+  <b>One command line for social media publishing, e-commerce content distribution and agent-driven automation.</b>
+</p>
 
 Multi Platform Auto Upload is a Python-based automation toolkit for creators, e-commerce sellers and AI agents. It turns repetitive publishing workflows into a unified command line interface: `mpau`.
 
 Upload videos. Publish image/text notes. Attach product links. Schedule posts. Manage multiple accounts. Give your AI agent a tool it can actually call.
 
-> One CLI for social media publishing, e-commerce content distribution and agent-driven automation.
+---
+
+## Supported platforms
+
+| Platform | Video | Image/Text | Schedule | Product Link / ID | CLI | Skill |
+| --- | --- | --- | --- | --- | --- | --- |
+| Douyin | ✅ | ✅ | ✅ | ✅ Product link | ✅ | ✅ |
+| WeChat Channels | ✅ | - | ✅ | ✅ WeChat shop / showcase product | ✅ | ✅ |
+| PDD / Duoduo Video | ✅ | - | ✅ | ✅ PDD product ID | ✅ | ✅ |
+| Tmall / Taobao Guanghe | ✅ | - | ✅ | ✅ Taobao / Tmall product ID | ✅ | ✅ |
+| JD Jingmai | ✅ | - | ✅ | ✅ JD product ID | ✅ | ✅ |
+| Kuaishou | ✅ | ✅ | ✅ | - | ✅ | ✅ |
+| Xiaohongshu | ✅ | ✅ | ✅ | - | ✅ | ✅ |
+| Bilibili | ✅ | - | ✅ | - | ✅ | ✅ |
+| Baijiahao | ✅ | - | ✅ | - | ✅ | ✅ |
+| TikTok | ✅ | - | ✅ | - | ✅ | ✅ |
+
+<p align="center">
+  <b>Creators publish faster. Sellers distribute better. Agents stop guessing.</b>
+</p>
+
+A legacy XHS SDK uploader is also kept in the repository, but it is not part of the current main CLI workflow.
 
 ---
 
@@ -71,25 +110,6 @@ Browser agents are powerful, but publishing is not a task they should rediscover
 - extend the existing uploader framework
 - build internal publishing tools
 - integrate publishing into a larger content operations system
-
----
-
-## Supported platforms
-
-| Platform | Video | Image/Text | Schedule | Product Link / ID | CLI | Skill |
-| --- | --- | --- | --- | --- | --- | --- |
-| Douyin | ✅ | ✅ | ✅ | ✅ Product link | ✅ | ✅ |
-| WeChat Channels | ✅ | - | ✅ | ✅ WeChat shop / showcase product | ✅ | ✅ |
-| PDD / Duoduo Video | ✅ | - | ✅ | ✅ PDD product ID | ✅ | ✅ |
-| Tmall / Taobao Guanghe | ✅ | - | ✅ | ✅ Taobao / Tmall product ID | ✅ | ✅ |
-| JD Jingmai | ✅ | - | ✅ | ✅ JD product ID | ✅ | ✅ |
-| Kuaishou | ✅ | ✅ | ✅ | - | ✅ | ✅ |
-| Xiaohongshu | ✅ | ✅ | ✅ | - | ✅ | ✅ |
-| Bilibili | ✅ | - | ✅ | - | ✅ | ✅ |
-| Baijiahao | ✅ | - | ✅ | - | ✅ | ✅ |
-| TikTok | ✅ | - | ✅ | - | ✅ | ✅ |
-
-A legacy XHS SDK uploader is also kept in the repository, but it is not part of the current main CLI workflow.
 
 ---
 
