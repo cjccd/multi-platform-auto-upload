@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Runtime data and credentials
+cookies/
+logs/
+*_login_qrcode_*.png
+*_verify_code.json
+qrcode.png
+conf.py
+
+# Databases / local state
+db/database.db
+*.sqlite
+*.sqlite3
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local agent/workspace metadata
+.pi/
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.webm

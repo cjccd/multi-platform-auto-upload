@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-analyzer"
+version = "0.1.0"
+description = "Video content extraction: keyframe capture + ASR transcription"
+requires-python = ">=3.10,<3.13"
+dependencies = []
+
+[project.scripts]
+va = "analyzer_cli:main"
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+py-modules = ["analyzer_cli", "extractor", "transcriber"]
