@@ -1,4 +1,4 @@
-from conf import LOCAL_CHROME_HEADLESS, LOCAL_CHROME_PATH
+from utils.config import LOCAL_CHROME_HEADLESS, LOCAL_CHROME_PATH
 
 def get_browser_options():
     options = {

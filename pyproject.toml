@@ -32,7 +32,7 @@ web = [
 package = true
 
 [tool.setuptools]
-py-modules = ["conf", "mpau_cli"]
+py-modules = ["mpau_cli"]
 include-package-data = true
 
 [tool.setuptools.packages.find]

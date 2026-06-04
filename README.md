@@ -149,10 +149,12 @@ python -m patchright install chromium
 python -m playwright install chromium
 ```
 
-Create local config:
+Optional runtime configuration can be provided through environment variables:
 
 ```bash
-cp conf.example.py conf.py
+export MPAU_CHROME_PATH="/path/to/chrome"
+export MPAU_HEADLESS="true"
+export MPAU_DEBUG="true"
 ```
 
 ### Use the CLI
@@ -415,7 +417,6 @@ Use this when you want an agent to understand the video before choosing titles, 
 multi-platform-auto-upload/
 ├── mpau_cli.py              # CLI entry
 ├── pyproject.toml           # Python package config
-├── conf.example.py          # Local config template
 ├── uploader/                # Platform uploaders
 ├── utils/                   # Shared utilities
 ├── skills/                  # Agent Skills

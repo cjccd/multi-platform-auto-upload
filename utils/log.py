@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 from loguru import logger
 
-from conf import BASE_DIR
+from utils.config import BASE_DIR
 
 
 if hasattr(sys.stdout, "reconfigure"):

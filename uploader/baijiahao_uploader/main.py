@@ -7,7 +7,7 @@ import os
 import time
 import asyncio
 
-from conf import LOCAL_CHROME_PATH, LOCAL_CHROME_HEADLESS
+from utils.config import LOCAL_CHROME_PATH, LOCAL_CHROME_HEADLESS
 from utils.base_social_media import set_init_script
 from utils.log import baijiahao_logger
 from utils.network import async_retry

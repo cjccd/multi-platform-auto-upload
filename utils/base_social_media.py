@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import List
 
-from conf import BASE_DIR
+from utils.config import BASE_DIR
 
 SOCIAL_MEDIA_DOUYIN = "douyin"
 SOCIAL_MEDIA_TENCENT = "tencent"

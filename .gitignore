@@ -13,7 +13,6 @@ logs/
 *_login_qrcode_*.png
 *_verify_code.json
 qrcode.png
-conf.py
 
 # Databases / local state
 db/database.db

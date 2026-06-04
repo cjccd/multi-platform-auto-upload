@@ -88,7 +88,7 @@ async def _reposition_browser_window(existing_hwnds: set, retries: int = 8, widt
     except Exception as e:
         douyin_logger.debug(_msg("🪟", f"窗口调整失败（非关键）: {e}"))
 
-from conf import DEBUG_MODE, LOCAL_CHROME_HEADLESS, LOCAL_CHROME_PATH
+from utils.config import DEBUG_MODE, LOCAL_CHROME_HEADLESS, LOCAL_CHROME_PATH
 from uploader.base_video import BaseVideoUploader
 from utils.base_social_media import set_init_script
 from utils.login_qrcode import build_login_qrcode_path

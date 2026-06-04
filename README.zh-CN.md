@@ -245,18 +245,14 @@ PLAYWRIGHT_DOWNLOAD_HOST="https://npmmirror.com/mirrors/playwright" python -m pa
 PLAYWRIGHT_DOWNLOAD_HOST="https://npmmirror.com/mirrors/playwright" python -m playwright install chromium
 ```
 
-### 配置文件
+### 可选运行配置
+
+默认不需要配置文件。需要覆盖浏览器路径、无头模式或调试模式时，可以使用环境变量：
 
 ```bash
-cp conf.example.py conf.py
-```
-
-常用配置：
-
-```python
-LOCAL_CHROME_PATH = ""       # 可选，自定义 Chrome 路径
-LOCAL_CHROME_HEADLESS = True  # 默认是否无头运行
-DEBUG_MODE = True             # 调试模式
+export MPAU_CHROME_PATH="/path/to/chrome"
+export MPAU_HEADLESS="true"
+export MPAU_DEBUG="true"
 ```
 
 ---
@@ -524,7 +520,6 @@ uv run va extract --file /path/to/video.mp4
 multi-platform-auto-upload/
 ├── mpau_cli.py              # CLI 主入口
 ├── pyproject.toml           # Python 包配置
-├── conf.example.py          # 配置模板
 ├── uploader/                # 平台上传器
 ├── utils/                   # 公共工具
 ├── skills/                  # Agent Skills
