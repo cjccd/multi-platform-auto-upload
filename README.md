@@ -36,17 +36,27 @@ Stop copy-pasting the same content across platforms. Stop letting agents click b
 
 ## Supported platforms
 
-**Social / creator platforms**
+<p align="center">
+  <img alt="Social" src="https://img.shields.io/badge/Social%20Platforms-6-8A2BE2?style=for-the-badge" />
+  <img alt="Commerce" src="https://img.shields.io/badge/Commerce%20Platforms-4-14B8A6?style=for-the-badge" />
+  <img alt="Publishing" src="https://img.shields.io/badge/Publishing-Flows-00C2FF?style=for-the-badge" />
+  <img alt="Agent Skills" src="https://img.shields.io/badge/Agent%20Skills-Included-FF6B6B?style=for-the-badge" />
+</p>
 
-Douyin · Kuaishou · Xiaohongshu · Bilibili · Baijiahao · TikTok
+| Platform | Category | Video | Image/Text | Schedule | Product Link / ID | Agent Skill |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Douyin** | 🟣 Social + Commerce | ✅ | ✅ | ✅ | ✅ Product link | ✅ |
+| **WeChat Channels** | 🟢 Commerce | ✅ | — | ✅ | ✅ WeChat shop / showcase | ✅ |
+| **PDD / Duoduo Video** | 🟢 Commerce | ✅ | — | ✅ | ✅ PDD product ID | ✅ |
+| **Tmall / Taobao Guanghe** | 🟢 Commerce | ✅ | — | ✅ | ✅ Taobao / Tmall product ID | ✅ |
+| **JD Jingmai** | 🟢 Commerce | ✅ | — | ✅ | ✅ JD product ID | ✅ |
+| **Kuaishou** | 🟣 Social | ✅ | ✅ | ✅ | — | ✅ |
+| **Xiaohongshu** | 🟣 Social | ✅ | ✅ | ✅ | — | ✅ |
+| **Bilibili** | 🔵 Video | ✅ | — | ✅ | — | ✅ |
+| **Baijiahao** | 🔵 Content | ✅ | — | ✅ | — | ✅ |
+| **TikTok** | 🔵 Video | ✅ | — | ✅ | — | ✅ |
 
-**E-commerce / merchant content platforms**
-
-WeChat Channels · PDD / Duoduo Video · Tmall / Taobao Guanghe · JD Jingmai
-
-**Built-in agent skills**
-
-Douyin · WeChat Channels · PDD · Tmall · JD · Kuaishou · Xiaohongshu · Bilibili · Baijiahao · TikTok · Video Analysis
+> If your workflow is **create once, publish everywhere**, `mpau` is the automation layer in between.
 
 ---
 

@@ -36,17 +36,27 @@
 
 ## 支持平台
 
-**内容 / 创作者平台**
+<p align="center">
+  <img alt="Social" src="https://img.shields.io/badge/内容平台-6-8A2BE2?style=for-the-badge" />
+  <img alt="Commerce" src="https://img.shields.io/badge/电商平台-4-14B8A6?style=for-the-badge" />
+  <img alt="Publishing" src="https://img.shields.io/badge/发布流程-已打通-00C2FF?style=for-the-badge" />
+  <img alt="Agent Skills" src="https://img.shields.io/badge/Agent%20Skills-内置-FF6B6B?style=for-the-badge" />
+</p>
 
-抖音 · 快手 · 小红书 · Bilibili · 百家号 · TikTok
+| 平台 | 类型 | 视频 | 图文 | 定时 | 商品/挂载 | Agent Skill |
+| --- | --- | --- | --- | --- | --- | --- |
+| **抖音** | 🟣 内容 + 电商 | ✅ | ✅ | ✅ | ✅ 商品链接 | ✅ |
+| **视频号** | 🟢 电商内容 | ✅ | — | ✅ | ✅ 微信小店/橱窗 | ✅ |
+| **PDD / 多多视频** | 🟢 电商内容 | ✅ | — | ✅ | ✅ PDD 商品 ID | ✅ |
+| **天猫 / 淘宝光合** | 🟢 电商内容 | ✅ | — | ✅ | ✅ 淘宝/天猫商品 ID | ✅ |
+| **京东 / 京东京麦** | 🟢 电商内容 | ✅ | — | ✅ | ✅ 京东商品 ID | ✅ |
+| **快手** | 🟣 内容平台 | ✅ | ✅ | ✅ | — | ✅ |
+| **小红书** | 🟣 内容平台 | ✅ | ✅ | ✅ | — | ✅ |
+| **Bilibili** | 🔵 视频平台 | ✅ | — | ✅ | — | ✅ |
+| **百家号** | 🔵 内容平台 | ✅ | — | ✅ | — | ✅ |
+| **TikTok** | 🔵 视频平台 | ✅ | — | ✅ | — | ✅ |
 
-**电商 / 商家内容平台**
-
-视频号 · PDD 多多视频 · 天猫 / 淘宝光合 · 京东京麦
-
-**内置 Agent Skills**
-
-抖音 · 视频号 · PDD · 天猫 · 京东 · 快手 · 小红书 · Bilibili · 百家号 · TikTok · 视频分析
+> 如果你的工作流是 **一次创作，多平台分发**，`mpau` 就是中间缺的自动化发布层。
 
 ---
 
